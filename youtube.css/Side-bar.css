@@ -1,0 +1,46 @@
+.Youtube-middle-part{
+    display: flex;
+}
+
+.side-bar{
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    z-index: 55;
+    background-color:rgb(246, 246, 246);
+    display: flex;
+    width: 180px;
+    flex-direction: column;
+    padding: 8px 0px 0px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+
+.item:hover{
+    background-color: rgba(223, 223, 223, 0.756);
+}
+.item img{
+    width: 20px;
+}
+
+.item{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0px 12px 0px 0px;
+    padding: 8px 0px 8px 8px;
+    border-radius: 5px;
+    column-gap: 20px;
+}
+
+.item-line{
+    background-color: rgb(21, 21, 21);
+    width: 172px;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

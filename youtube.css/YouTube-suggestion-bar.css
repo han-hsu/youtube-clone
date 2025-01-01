@@ -1,0 +1,26 @@
+.YouTube-suggestion-bar{
+    position: fixed;
+    top: 56px;
+    background-color: rgb(255, 255, 255);
+    right: 0px;
+    left: 193px;
+    z-index: 100;
+    display: flex;
+    column-gap: 15px;
+    padding: 8px 0px 12px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    align-items: center;
+    justify-content:left;
+}
+
+.YouTube-suggestion-bar div{
+    background-color: rgba(51, 50, 50, 0.544);
+    padding: 4px 8px 4px 8px;
+    color: white;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+.YouTube-suggestion-bar div:hover{
+    opacity: 1;
+}
